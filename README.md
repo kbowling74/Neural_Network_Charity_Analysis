@@ -27,16 +27,21 @@ The following results are from processing the provided data from a csv file that
 the hidden layers were activated with relu and the output layer was activated with the sigmoid function. 
 - The goal was to acheive a 75% accuracy with and the first iteration of the neural network came close at 72.49% with a loss of 56.17%. <br>
 <img width="661" alt="Screen Shot 2022-10-21 at 4 39 12 PM" src="https://user-images.githubusercontent.com/106560606/197292952-1f672bc3-9352-424f-9168-934ebdb7bc91.png">
-##### First Optimization
+
+#### First Optimization
 - The first attempt at optimization was to remove any noisy data. The status column was removed and then the model was run with the new data. 
 <img width="702" alt="1st optimization" src="https://user-images.githubusercontent.com/106560606/197293122-7c4d6ea1-9bd8-4f37-82b9-f79ccd004bc5.png">
+
 - This resulted in an accuracy of 74.19% and a loss of 53.12%, a slight increase of accuracy and decrease in loss from the first iteration. 
-##### Second Optimization
+- 
+#### Second Optimization
 - The second change made to the model was increasing the number of neurons in the hidden layers. They were changed from 80, 30 to 120 for the first layer and 60 for the second layer. 
 <img width="781" alt="2nd optimm" src="https://user-images.githubusercontent.com/106560606/197293585-19713281-a2cb-4d2c-8eff-2fa6b6b7ea67.png">
+
 - This iteration resulted in an accuracy of 74.27% and a loss of 53.24% which increased slightly in accuracy from the previous optimization but also an increase in loss. 
 <img width="284" alt="Screen Shot 2022-10-21 at 4 07 52 PM" src="https://user-images.githubusercontent.com/106560606/197293784-79beade6-aa43-4891-8a14-0d74a985ac43.png">
-##### Third Optimization
+
+#### Third Optimization
 - The third iteration of the neural netowrk involved adding a third hidden layer with 60 nodes and changing the activation function for the second hidden layer from relu to sigmoid. 
 <img width="784" alt="3rd optimization" src="https://user-images.githubusercontent.com/106560606/197293913-7013edff-4471-4c15-99e0-d2b4680b165e.png">
 - This iteration resulted in a 74.21% accuracy and 53.06% loss. This was a slightly lowered accuracy score from the previous model and a slightly lower loss.
