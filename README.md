@@ -1,4 +1,4 @@
-# Neaural_Network_Charity_Analysis
+# Neural_Network_Charity_Analysis
 ### Overview
 This analysis was completed for Alphabet Soup to help determine which of the 34,000 potential organizations will be successful if they are to recieve funding from Alphabet Soup. An initial deep learning neural network model was used on the dataset to determine if the money will be used effectively or misused by the organization so that Alphabet Soup can ensure they have the highest possible impact with their investment. 
 
